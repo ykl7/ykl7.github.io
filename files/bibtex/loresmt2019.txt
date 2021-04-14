@@ -1,0 +1,12 @@
+@inproceedings{mueller-lal-2019-sentence,
+    title = "Sentence-Level Adaptation for Low-Resource Neural Machine Translation",
+    author = "Mueller, Aaron  and
+      Lal, Yash Kumar",
+    booktitle = "Proceedings of the 2nd Workshop on Technologies for MT of Low Resource Languages",
+    month = aug,
+    year = "2019",
+    address = "Dublin, Ireland",
+    publisher = "European Association for Machine Translation",
+    url = "https://www.aclweb.org/anthology/W19-6807",
+    pages = "39--47",
+}

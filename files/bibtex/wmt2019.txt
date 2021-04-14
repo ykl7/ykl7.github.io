@@ -1,0 +1,15 @@
+@inproceedings{marchisio-etal-2019-johns,
+    title = "{J}ohns {H}opkins {U}niversity Submission for {WMT} News Translation Task",
+    author = "Marchisio, Kelly  and
+      Lal, Yash Kumar  and
+      Koehn, Philipp",
+    booktitle = "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-5329",
+    doi = "10.18653/v1/W19-5329",
+    pages = "287--293",
+    abstract = "We describe the work of Johns Hopkins University for the shared task of news translation organized by the Fourth Conference on Machine Translation (2019). We submitted systems for both directions of the English-German language pair. The systems combine multiple techniques {--} sampling, filtering, iterative backtranslation, and continued training {--} previously used to improve performance of neural machine translation models. At submission time, we achieve a BLEU score of 38.1 for De-En and 42.5 for En-De translation directions on newstest2019. Post-submission, the score is 38.4 for De-En and 42.8 for En-De. Various experiments conducted in the process are also described.",
+}
