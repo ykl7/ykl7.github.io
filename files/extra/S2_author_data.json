@@ -3,7 +3,7 @@
       "author_name":"Yash Kumar Lal",
       "author_id":"27604402",
       "paper_count":15,
-      "citation_count":144,
+      "citation_count":145,
       "h_index":5
    },
    "json_paper_list":[
@@ -15,11 +15,11 @@
          "num_citations":2,
          "venue":"",
          "publicationVenue":null,
-         "abbreviated_venue":"Preprint",
+         "abbreviated_venue":"arXiv",
          "year":2022,
          "bib":"@article{Lal2022AnalyzingTC,\n author = {Yash Kumar Lal},\n title = {Analyzing the Contribution of Commonsense Knowledge Sources for Why-Question Answering},\n year = {2022}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/63cd10c4ca6733a8894d55cf1343636fa816cf7c",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/63cd10c4ca6733a8894d55cf1343636fa816cf7c/3-Figure1-1.png"
       },
       {
          "paper_title":"Using Commonsense Knowledge to Answer Why-Questions",
@@ -44,7 +44,7 @@
          "year":2022,
          "bib":"@article{Lal2022UsingCK,\n author = {Yash Kumar Lal},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n title = {Using Commonsense Knowledge to Answer Why-Questions},\n year = {2022}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/7bb907e754942b832bacf7889ba1d6bd72945ca0",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/7bb907e754942b832bacf7889ba1d6bd72945ca0/1-Figure1-1.png"
       },
       {
          "paper_title":"SBU Figures It Out: Models Explain Figurative Language",
@@ -54,11 +54,11 @@
          "num_citations":1,
          "venue":"FLP",
          "publicationVenue":null,
-         "abbreviated_venue":"Preprint",
+         "abbreviated_venue":"arXiv",
          "year":2022,
          "bib":"@article{Lal2022SBUFI,\n author = {Yash Kumar Lal and Mohaddeseh Bastan},\n booktitle = {FLP},\n title = {SBU Figures It Out: Models Explain Figurative Language},\n year = {2022}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/8c108052266ef5d530c4adf19629e23a989c83ac",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/8c108052266ef5d530c4adf19629e23a989c83ac/3-Table1-1.png"
       },
       {
          "paper_title":"The First Workshop on Commonsense Representation and Reasoning May 27 , 2022",
@@ -68,11 +68,11 @@
          "num_citations":0,
          "venue":"",
          "publicationVenue":null,
-         "abbreviated_venue":"Preprint",
+         "abbreviated_venue":"arXiv",
          "year":2022,
          "bib":"@article{Bosselut2022TheFW,\n author = {Antoine Bosselut and Xiangci Li and Bill Yuchen Lin and Vered Schwartz and Bodhisattwa Prasad Majumdar and Yash Kumar Lal and Rachel Rudinger and Xiang Ren and Niket Tandon and Yucheng Lin},\n title = {The First Workshop on Commonsense Representation and Reasoning May 27 , 2022},\n year = {2022}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/b71c245e093568d8c95aa889f968ce72b18e3d8b",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/b71c245e093568d8c95aa889f968ce72b18e3d8b/23-Figure4-1.png"
       },
       {
          "paper_title":"TellMeWhy: A Dataset for Answering Why-Questions in Narratives",
@@ -92,7 +92,7 @@
          "year":2021,
          "bib":"@article{Lal2021TellMeWhy:AD,\n author = {Yash Kumar Lal and Nathanael Chambers and R. Mooney and Niranjan Balasubramanian},\n booktitle = {Findings},\n title = {TellMeWhy: A Dataset for Answering Why-Questions in Narratives},\n year = {2021}\n}\n",
          "pdf_url":"https://aclanthology.org/2021.findings-acl.53.pdf",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/3eeedb6651a629a105c1185ada862e2cad7a0522/5-Figure1-1.png"
       },
       {
          "paper_title":"IrEne-viz: Visualizing Energy Consumption of Transformer Models",
@@ -116,8 +116,7 @@
          "abbreviated_venue":"EMNLP",
          "year":2021,
          "bib":"@article{Lal2021IrEne-viz:VE,\n author = {Yash Kumar Lal and Reetu Singh and H. Trivedi and Qingqing Cao and A. Balasubramanian and Niranjan Balasubramanian},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n title = {IrEne-viz: Visualizing Energy Consumption of Transformer Models},\n year = {2021}\n}\n",
-         "pdf_url":"https://aclanthology.org/2021.emnlp-demo.29.pdf",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "pdf_url":"https://aclanthology.org/2021.emnlp-demo.29.pdf"
       },
       {
          "paper_title":"IrEne: Interpretable Energy Prediction for Transformers",
@@ -142,7 +141,7 @@
          "year":2021,
          "bib":"@article{Cao2021IrEne:IE,\n author = {Qingqing Cao and Yash Kumar Lal and H. Trivedi and A. Balasubramanian and Niranjan Balasubramanian},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n title = {IrEne: Interpretable Energy Prediction for Transformers},\n year = {2021}\n}\n",
          "pdf_url":"https://aclanthology.org/2021.acl-long.167.pdf",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/d1e5ac96faf9165ea60bf593c0da2a1f55e390fd/3-Figure1-1.png"
       },
       {
          "paper_title":"Temporal Reasoning in Natural Language Inference",
@@ -162,7 +161,7 @@
          "year":2020,
          "bib":"@article{Vashishtha2020TemporalRI,\n author = {Siddharth Vashishtha and Adam Poliak and Yash Kumar Lal and Benjamin Van Durme and Aaron Steven White},\n booktitle = {Findings},\n title = {Temporal Reasoning in Natural Language Inference},\n year = {2020}\n}\n",
          "pdf_url":"https://www.aclweb.org/anthology/2020.findings-emnlp.363.pdf",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://d3i71xaburhd42.cloudfront.net/3d2035edd4dd48e1e638279409e11bf689c461e1/2-Table2-1.png"
       },
       {
          "paper_title":"Johns Hopkins University Submission for WMT News Translation Task",
@@ -184,7 +183,7 @@
          "year":2019,
          "bib":"@article{Marchisio2019JohnsHU,\n author = {Kelly Marchisio and Yash Kumar Lal and Philipp Koehn},\n booktitle = {Conference on Machine Translation},\n title = {Johns Hopkins University Submission for WMT News Translation Task},\n year = {2019}\n}\n",
          "pdf_url":"https://www.aclweb.org/anthology/W19-5329.pdf",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       },
       {
          "paper_title":"Sentence-Level Adaptation for Low-Resource Neural Machine Translation",
@@ -194,11 +193,11 @@
          "num_citations":3,
          "venue":"",
          "publicationVenue":null,
-         "abbreviated_venue":"Preprint",
+         "abbreviated_venue":"arXiv",
          "year":2019,
          "bib":"@article{Mueller2019Sentence-LevelAF,\n author = {Aaron Mueller and Yash Kumar Lal},\n title = {Sentence-Level Adaptation for Low-Resource Neural Machine Translation},\n year = {2019}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/bc2c88c2b4e533f7493e15738de3eebe5a51bd18",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       },
       {
          "paper_title":"De-Mixing Sentiment from Code-Mixed Text",
@@ -223,7 +222,7 @@
          "year":2019,
          "bib":"@article{Lal2019De-MixingSF,\n author = {Yash Kumar Lal and Vaibhav Kumar and Mrinal Dhar and Manish Shrivastava and Philipp Koehn},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n title = {De-Mixing Sentiment from Code-Mixed Text},\n year = {2019}\n}\n",
          "pdf_url":"https://www.aclweb.org/anthology/P19-2052.pdf",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       },
       {
          "paper_title":"Check It Out : Politics and Neural Networks",
@@ -248,7 +247,7 @@
          "year":2018,
          "bib":"@article{Lal2018CheckIO,\n author = {Yash Kumar Lal and Dhruv Khattar and Vaibhav Kumar and Abhimanshu Mishra and Vasudeva Varma},\n booktitle = {Conference and Labs of the Evaluation Forum},\n title = {Check It Out : Politics and Neural Networks},\n year = {2018}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/462ac61fab3fa1ba9202e47a350e6fafdcaf64c8",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       },
       {
          "paper_title":"SWDE : A Sub-Word And Document Embedding Based Engine for Clickbait Detection",
@@ -256,13 +255,21 @@
          "author_list":"Vaibhav Kumar, Mrinal Dhar, Dhruv Khattar, Yash Kumar Lal, Abhimanshu Mishra, Manish Shrivastava, Vasudeva Varma",
          "highlighted_author_list":"Vaibhav Kumar, Mrinal Dhar, Dhruv Khattar, <b>Yash Kumar Lal</b>, Abhimanshu Mishra, Manish Shrivastava, Vasudeva Varma",
          "num_citations":0,
-         "venue":"ArXiv",
-         "publicationVenue":null,
-         "abbreviated_venue":"Preprint",
+         "venue":"arXiv.org",
+         "publicationVenue":{
+            "id":"1901e811-ee72-4b20-8f7e-de08cd395a10",
+            "name":"arXiv.org",
+            "alternate_names":[
+               "ArXiv"
+            ],
+            "issn":"2331-8422",
+            "url":"http://bibpurl.oclc.org/web/7130"
+         },
+         "abbreviated_venue":"ArXiv",
          "year":2018,
-         "bib":"@article{Kumar2018SWDE:A,\n author = {Vaibhav Kumar and Mrinal Dhar and Dhruv Khattar and Yash Kumar Lal and Abhimanshu Mishra and Manish Shrivastava and Vasudeva Varma},\n booktitle = {ArXiv},\n title = {SWDE : A Sub-Word And Document Embedding Based Engine for Clickbait Detection},\n year = {2018}\n}\n",
+         "bib":"@article{Kumar2018SWDE:A,\n author = {Vaibhav Kumar and Mrinal Dhar and Dhruv Khattar and Yash Kumar Lal and Abhimanshu Mishra and Manish Shrivastava and Vasudeva Varma},\n booktitle = {arXiv.org},\n title = {SWDE : A Sub-Word And Document Embedding Based Engine for Clickbait Detection},\n year = {2018}\n}\n",
          "pdf_url":"https://www.semanticscholar.org/paper/71f5a2758d8ca1134b2cd0a0b5f3ba582992e1c4",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       },
       {
          "paper_title":"A Neural Clickbait Detection Engine",
@@ -270,13 +277,21 @@
          "author_list":"Siddhartha Gairola, Yash Kumar Lal, Vaibhav Kumar, Dhruv Khattar",
          "highlighted_author_list":"Siddhartha Gairola, <b>Yash Kumar Lal</b>, Vaibhav Kumar, Dhruv Khattar",
          "num_citations":17,
-         "venue":"ArXiv",
-         "publicationVenue":null,
-         "abbreviated_venue":"Preprint",
+         "venue":"arXiv.org",
+         "publicationVenue":{
+            "id":"1901e811-ee72-4b20-8f7e-de08cd395a10",
+            "name":"arXiv.org",
+            "alternate_names":[
+               "ArXiv"
+            ],
+            "issn":"2331-8422",
+            "url":"http://bibpurl.oclc.org/web/7130"
+         },
+         "abbreviated_venue":"ArXiv",
          "year":2017,
-         "bib":"@article{Gairola2017ANC,\n author = {Siddhartha Gairola and Yash Kumar Lal and Vaibhav Kumar and Dhruv Khattar},\n booktitle = {ArXiv},\n title = {A Neural Clickbait Detection Engine},\n year = {2017}\n}\n",
+         "bib":"@article{Gairola2017ANC,\n author = {Siddhartha Gairola and Yash Kumar Lal and Vaibhav Kumar and Dhruv Khattar},\n booktitle = {arXiv.org},\n title = {A Neural Clickbait Detection Engine},\n year = {2017}\n}\n",
          "pdf_url":"http://arxiv.org/pdf/1710.01507",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       },
       {
          "paper_title":"Identifying Clickbait: A Multi-Strategy Approach Using Neural Networks",
@@ -301,7 +316,7 @@
          "year":2017,
          "bib":"@article{Kumar2017IdentifyingCA,\n author = {Vaibhav Kumar and Dhruv Khattar and Siddhartha Gairola and Yash Kumar Lal and Vasudeva Varma},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Identifying Clickbait: A Multi-Strategy Approach Using Neural Networks},\n year = {2017}\n}\n",
          "pdf_url":"http://arxiv.org/pdf/1710.01507",
-         "figure_url": "https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
+         "figure_url":"https://pbs.twimg.com/profile_images/1138107711923544064/qDsIE-Xl_400x400.png"
       }
    ]
 }
