@@ -1,0 +1,10 @@
+@inproceedings{verma-etal-2023-evaluating,
+    title = "Evaluating Robustness in Textual Entailment Models",
+    author = "Dhruv, Verma  and
+      Lal, Yash Kumar  and
+      Sinha, Shreyashee  and
+      Van Durme, Benjamin  and
+      Poliak, Adam",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    year = "2023",
+}
