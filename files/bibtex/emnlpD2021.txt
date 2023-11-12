@@ -1,13 +1,20 @@
-@inproceedings{nguyen-etal-2020-bertweet,
-    title = "IrEne-viz: Visualizing Energy Consumption of Transformer Models",
+@inproceedings{lal-etal-2021-irene,
+    title = "{I}r{E}ne-viz: Visualizing Energy Consumption of Transformer Models",
     author = "Lal, Yash Kumar  and
+      Singh, Reetu  and
+      Trivedi, Harsh  and
       Cao, Qingqing  and
-      Trivedi, Harsh and
-      Singh, Reetu and
-      Balasubramanian, Aruna and
+      Balasubramanian, Aruna  and
       Balasubramanian, Niranjan",
+    editor = "Adel, Heike  and
+      Shi, Shuming",
     booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
-    month = oct,
+    month = nov,
     year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-demo.29",
+    doi = "10.18653/v1/2021.emnlp-demo.29",
+    pages = "251--258",
+    abstract = "IrEne is an energy prediction system that accurately predicts the interpretable inference energy consumption of a wide range of Transformer-based NLP models. We present the IrEne-viz tool, an online platform for visualizing and exploring energy consumption of various Transformer-based models easily. Additionally, we release a public API that can be used to access granular information about energy consumption of transformer models and their components. The live demo is available at \url{http://stonybrooknlp.github.io/irene/demo/}.",
 }

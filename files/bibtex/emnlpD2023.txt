@@ -1,0 +1,19 @@
+@inproceedings{devare-etal-2023-sage,
+    title = "SAGE-Viz: {S}chem{A} {GE}neration and {V}isualization",
+    author = "Devare, Sugam and
+      Koupaee, Mahnaz and
+      Gunapati, Gautham and
+      Ghosh, Sayontan and
+      Vallurupalli, Sai and
+      Lal, Yash Kumar  and
+      Ferraro, Francis and
+      Chambers, Nathanael  and
+      Durrett, Greg  and
+      Mooney, Raymond  and
+      Erk, Katrin  and
+      Balasubramanian, Niranjan",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = dec,
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+}
