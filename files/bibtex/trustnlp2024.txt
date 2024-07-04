@@ -1,13 +1,24 @@
 @inproceedings{lal-etal-2024-automated,
     title = "Automated Adversarial Discovery for Safety Classifiers",
-    author = "Lal, Yash Kumar and
-    Lahoti, Preethi and
-    Sinha, Aradhana and
-    Qin, Yao and
-    Balashankar, Ananth",
+    author = "Lal, Yash Kumar  and
+      Lahoti, Preethi  and
+      Sinha, Aradhana  and
+      Qin, Yao  and
+      Balashankar, Ananth",
+    editor = "Chang, Kai-Wei  and
+      Ovalle, Anaelia  and
+      Zhao, Jieyu  and
+      Cao, Yang Trista  and
+      Mehrabi, Ninareh  and
+      Galstyan, Aram  and
+      Dhamala, Jwala  and
+      Kumar, Anoop  and
+      Gupta, Rahul",
     booktitle = "Proceedings of the 4th Workshop on Trustworthy Natural Language Processing (TrustNLP 2024)",
     month = jun,
     year = "2024",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.trustnlp-1.2",
+    pages = "13--26",
 }
