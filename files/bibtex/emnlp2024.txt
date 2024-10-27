@@ -1,0 +1,13 @@
+@inproceedings{lal-etal-2024-benchmarking,
+    title={CaT-BENCH: Benchmarking Language Model Understanding of Causal and Temporal Dependencies in Plans},
+    author={Lal, Yash Kumar  and
+      Vanya, Vanya and
+      Chambers, Nathanael  and
+      Balasubramanian, Niranjan  and
+      Mooney, Raymond},
+    booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+    month={nov},
+    year={2024},
+    address={Miami, USA},
+    publisher={Association for Computational Linguistics},
+}
