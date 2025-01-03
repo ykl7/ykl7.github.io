@@ -7,15 +7,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="home.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
-    <!-- Or include minified version -->
-    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bibtex_js.js" type="text/javascript" charset="utf-8"></script>
+    <bibtex src="nb_scholar.bib"></bibtex>      
+    <script>
+        $(function() {
+            $("#Fontselector").on("change",function() {
+                var font = $("#Fontselector option:selected").text();
+                console.log(font);
 
-    <!-- below line is to use local js version of bibtex_js -->
-    <!-- <script type="text/javascript" src="bibtex_js.js" charset="utf-8"></script> -->
-    
-    <bibtex src="nb_scholar.bib"></bibtex>
+                $('.title.fonters').each(function() {
+                    $(this).css("font-family",font);
+                });
+            }); 
+        });
+        function reset() {
+            $("select").each(function () {
+                localStorage.setItem($(this).attr("id"),"");
+                $(this).val("");
+            }); 
+            $("#searchbar").val("");
+            $("#searchbar").trigger('change');
+        }
+    </script>
 
     <!-- currently raw bib exists just for debugging and testing -->
     <!-- <textarea id="bibtex_input" style="display:none;">
@@ -585,8 +599,9 @@
     </textarea> -->
 
     <style>
-    bibtex { display: none; }
-    #bibtex_errors { margin-top:10px; color: red;}
+        bibtex { display: none; }
+        h1.header {margin-left:8px;}
+        h1.YEAR { font-size: 17px; font-weight: bold; display: inline; margin-left:8px;}
     </style>
 </head>
 <body>
@@ -619,17 +634,67 @@
         </div>
     </header>
 
-    <!-- <div id="bibtex_display"></div> -->
     <div class="bibtex_structure">
         <div class="group year" extra="DESC number">
-            <div class="sort title" extra="DESC string">
+            <!--a href="#top" style="display: inline"><em>(Top of the page)</em></a-->
+            <div style="padding-bottom:10px;"></div>
+            <div class="sort journal" extra="DESC string">
                 <div class="templates"></div>
             </div>
         </div>
     </div>
 
-    
+    <div id="bibtex_display">
+    <div class="if bibtex_template" style="display: none;">
+        <div class="sort year" extra="DESC number">           
+      <ul> <li>
+      <span class="if journal !nolink">
+        <a class="bibtexVar" href="+URL+" extra="URL">
+            <span style="text-decoration: underline;" class="title"></span>,
+        </a>
+      </span>
+      <span class="if title nolink">
+            <span class="title"></span>,
+      </span>      
+      <div class="if author">
+        <span class="author">
+            <span class="first"></span> <!-- <span class="first_initial"></span> -->
+            <span class="von"></span>
+            <span class="last"></span>
+            <span class="junior"></span>
+        </span>
+      </div>
+      <div>
+        <span class="if journal"><em><span class="journal"></span></em>,</span>
+        <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+        <span class="if editor"><span class="editor"></span> (editors),</span>
+        <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+        <span class="if !journal number">Technical report <span class="number"></span>,</span>
+        <span class="if institution"><span class="institution"></span>,</span>
+        <span class="if address"><span class="address"></span>,</span>
+        <span class="if volume"><span class="volume"></span>,</span>
+        <span class="if journal number">(<span class="number"></span>),</span>
+        <span class="if pages"> pages <span class="pages"></span>,</span>
+        <span class="if month"><span class="month"></span>,</span>
+        <span class="if year"><span class="year"></span>.</span>
+        <span class="if note"><span class="note"></span>.</span>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+              [bib]
+            </a>
+      </div>
+      <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+          <div class="well">
+            <pre><span class="bibtexraw noread"></span></pre>           
+          </div>
+      </div>
+      <div style="display:none"><span class="bibtextype"></span></div>
+      <div style="display:none"><span class="if topic"><span class="topic"></span></span></div>
+    </li>   </ul>
+    </div>
+    </div>
+    </div>
 
+    
     <footer class="text-white py-4 mt-5">
         <div class="container text-center">
             <p class="mb-0">&copy; 2025 LUNR. All rights reserved.</p>
