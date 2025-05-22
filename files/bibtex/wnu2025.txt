@@ -1,0 +1,21 @@
+@inproceedings{dey-lal-2025-transferability,
+    title = "On the Transferability of Causal Knowledge for Language Models",
+    author = "Dey, Gourab  and
+      Lal, Yash Kumar",
+    editor = "Clark, Elizabeth  and
+      Lal, Yash Kumar  and
+      Chaturvedi, Snigdha  and
+      Iyyer, Mohit  and
+      Brei, Anneliese  and
+      Modi, Ashutosh  and
+      Chandu, Khyathi Raghavi",
+    booktitle = "Proceedings of the The 7th Workshop on Narrative Understanding",
+    month = may,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.wnu-1.3/",
+    pages = "8--14",
+    ISBN = "979-8-89176-247-3",
+    abstract = "Language understanding includes identifying logical connections between events in a discourse, such as news and instructional text. We study the transferability of causal knowledge across these two domains by analyzing the extent to which understanding preconditions in narratives such as news articles can help models reason about cooking recipes, and vice-versa. Our experiments show that using instructions to pretrain small models on one domain before similarly finetuning it on the other shows a slight improvement over just finetuning it. We also find that finetuning the models on a mix of both types of data is better ({\textasciitilde}3-7{\%}) for understanding causal relations in instructional text. While we find that the improvements do not translate to larger or already instruction tuned models, our analysis highlights the aspects of a plan that are better captured through the interoperability of causal knowledge."
+}
